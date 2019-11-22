@@ -58,7 +58,7 @@ function SetPixel(i,j) {
 		var p = c.createImageData(1,1);
 		p.data[0]=255;
 		p.data[1]=0;
-		p.data[2]=0;
+		p.data[2]=255;
 		p.data[3]=255;
 		c.putImageData(p,i,j);
 	
