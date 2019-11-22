@@ -32,7 +32,11 @@ for (var i=0; i<=40; i++){
 		var b=color[2];
 
 		//console.log(r,g,b);
-		SetPixel(i,j);
+		var p = c.createImageData(1,1);
+		p.data[0]=255;
+		p.data[1]=0;
+		p.data[2]=0;
+		c.putImageData(p,i,j);
 
 		if (r!=0) {
 
