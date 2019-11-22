@@ -1,10 +1,12 @@
 
 
-	var b = document.getElementById("b");
-	var c = b.getContext("2d");
+	
 
 	function F1() {
 	var black = 0;
+
+	var b = document.getElementById("b");
+	var c = b.getContext("2d");
 
 // Создаем объект изображения
 var img = new Image();
@@ -19,6 +21,8 @@ img.onload = function() {
 
 
 function Pixel8() {
+	var b = document.getElementById("b");
+	var c = b.getContext("2d");
 img.src = "Ondrey.bmp";
 for (var i=0; i<=40; i++){
 	for (var j=0; j<=40; j++){
