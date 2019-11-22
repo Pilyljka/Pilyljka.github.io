@@ -16,14 +16,13 @@ var img = new Image();
 img.onload = function() {
 	c.drawImage(img, 0, 0);
 };
-
+img.src = "Ondrey.bmp";
 }
 
 
 function Pixel8() {
 	var b = document.getElementById("b");
 	var c = b.getContext("2d");
-img.src = "Ondrey.bmp";
 for (var i=0; i<=40; i++){
 	for (var j=0; j<=40; j++){
 		var color=c.getImageData(i,j,1,1).data;
