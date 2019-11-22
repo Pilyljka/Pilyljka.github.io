@@ -39,7 +39,7 @@ for (var i=0; i<=40; i++){
 		p.data[3]=255;
 		c.putImageData(p,i,j);
 
-		if (r!=0) {
+		if (r==255) {
 
 			w++;
 		}
